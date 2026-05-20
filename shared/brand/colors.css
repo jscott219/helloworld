@@ -1,0 +1,14 @@
+/*
+  Brand reference — copy hex values into inline email styles or presentation CSS.
+  Do not link this file from Outlook newsletters.
+*/
+
+:root {
+  --brand-primary: #0066cc;
+  --brand-secondary: #0f172a;
+  --brand-accent: #38bdf8;
+  --brand-text: #111111;
+  --brand-text-muted: #666666;
+  --brand-background: #f4f4f4;
+  --brand-surface: #ffffff;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentation title</title>
+  <link rel="stylesheet" href="../styles/deck.css">
+</head>
+<body class="deck">
+  <nav class="deck-nav" aria-label="Slide navigation">
+    <button type="button" id="prev" aria-label="Previous slide">←</button>
+    <span id="slide-count" aria-live="polite">1 / 1</span>
+    <button type="button" id="next" aria-label="Next slide">→</button>
+  </nav>
+
+  <main class="deck-viewport">
+    <!-- Slide 1: Title -->
+    <section class="slide slide--title is-active" data-slide="1">
+      <h1>Presentation title</h1>
+      <p class="subtitle">Subtitle or date</p>
+    </section>
+
+    <!-- Slide 2: Content (duplicate this block for more slides) -->
+    <section class="slide" data-slide="2">
+      <h2>Section heading</h2>
+      <ul>
+        <li>First point</li>
+        <li>Second point</li>
+        <li>Third point</li>
+      </ul>
+    </section>
+
+    <!-- Slide 3: Image + text -->
+    <section class="slide slide--split" data-slide="3">
+      <div class="slide-media">
+        <img src="../assets/placeholder.svg" alt="Describe the image">
+      </div>
+      <div class="slide-copy">
+        <h2>Visual slide</h2>
+        <p>Caption or supporting text.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="../styles/deck.js"></script>
+</body>
+</html>
