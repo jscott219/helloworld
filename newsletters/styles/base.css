@@ -1,0 +1,39 @@
+/*
+  Reference only — inline these rules into HTML before sending.
+  Outlook desktop often ignores embedded <style> blocks.
+*/
+
+/* Container */
+.email-body-bg { background-color: #f4f4f4; }
+.email-container { width: 600px; max-width: 600px; background-color: #ffffff; }
+
+/* Typography */
+.email-headline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #111111;
+  font-weight: bold;
+}
+.email-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.email-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+
+/* Button */
+.email-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0066cc;
+}
