@@ -1,31 +1,31 @@
 /*
   Reference only — inline these rules into HTML before sending.
-  Outlook desktop often ignores embedded <style> blocks.
+  Palette: Max (2023+) — black / charcoal + electric blue.
 */
 
 /* Container */
-.email-body-bg { background-color: #f4f4f4; }
-.email-container { width: 600px; max-width: 600px; background-color: #ffffff; }
+.email-body-bg { background-color: #000000; }
+.email-container { width: 600px; max-width: 600px; background-color: #12141a; }
 
 /* Typography */
 .email-headline {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 32px;
-  color: #111111;
+  color: #ffffff;
   font-weight: bold;
 }
 .email-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: #333333;
+  color: #e5e7eb;
 }
 .email-footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 18px;
-  color: #666666;
+  color: #9ca3af;
 }
 
 /* Button */
@@ -35,5 +35,20 @@
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
-  background-color: #0066cc;
+  background-color: #0059f1;
+}
+
+/* AURA section heading */
+.email-section-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* AURA tip box */
+.email-tip-box {
+  background-color: #151b2e;
+  border-left: 4px solid #015cfe;
 }

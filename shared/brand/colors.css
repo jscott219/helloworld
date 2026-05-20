@@ -1,14 +1,28 @@
 /*
-  Brand reference — copy hex values into inline email styles or presentation CSS.
-  Do not link this file from Outlook newsletters.
+  AURA brand — Max (2023+) inspired palette.
+  Dark neutral surfaces + electric blue accents. Copy hex into inline email styles.
 */
 
 :root {
-  --brand-primary: #0066cc;
-  --brand-secondary: #0f172a;
-  --brand-accent: #38bdf8;
-  --brand-text: #111111;
-  --brand-text-muted: #666666;
-  --brand-background: #f4f4f4;
-  --brand-surface: #ffffff;
+  /* Max core */
+  --brand-primary: #0059f1;
+  --brand-primary-alt: #015cfe;
+  --brand-indigo: #5128f2;
+  --brand-space-blue: #04006c;
+
+  /* Surfaces */
+  --brand-background: #000000;
+  --brand-surface: #12141a;
+  --brand-surface-elevated: #1a1d24;
+
+  /* Text on dark */
+  --brand-text: #ffffff;
+  --brand-text-body: #e5e7eb;
+  --brand-text-muted: #9ca3af;
+
+  /* UI */
+  --brand-border: #2a2d35;
+  --brand-link: #4d9fff;
+  --brand-tip-bg: #151b2e;
+  --brand-tip-border: #015cfe;
 }
