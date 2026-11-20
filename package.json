@@ -1,0 +1,25 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "working on learning some githb.  here are my new changes for the master branch adding text to file.  Test commit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscott219/helloworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jscott219/helloworld/issues"
+  },
+  "homepage": "https://github.com/jscott219/helloworld#readme",
+  "devDependencies": {
+    "hyperframes": "^0.9.72",
+    "playwright": "^1.65.1"
+  }
+}
